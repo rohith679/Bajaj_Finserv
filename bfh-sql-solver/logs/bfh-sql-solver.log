@@ -1,0 +1,24 @@
+2025-08-29T11:31:32.009+05:30  INFO 11448 --- [main] c.e.b.BfhSqlSolverApplication            : Starting BfhSqlSolverApplication using Java 21.0.7 with PID 11448 (C:\Users\rohit\OneDrive\Desktop\bfh-sql-solver\bfh-sql-solver\target\classes started by rohit in C:\Users\rohit\OneDrive\Desktop\bfh-sql-solver\bfh-sql-solver)
+2025-08-29T11:31:32.009+05:30 DEBUG 11448 --- [main] c.e.b.BfhSqlSolverApplication            : Running with Spring Boot v3.2.5, Spring v6.1.6
+2025-08-29T11:31:32.009+05:30  INFO 11448 --- [main] c.e.b.BfhSqlSolverApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-08-29T11:31:32.761+05:30  INFO 11448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2025-08-29T11:31:32.777+05:30  INFO 11448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-29T11:31:32.778+05:30  INFO 11448 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2025-08-29T11:31:32.845+05:30  INFO 11448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-29T11:31:32.845+05:30  INFO 11448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 777 ms
+2025-08-29T11:31:33.168+05:30  INFO 11448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path ''
+2025-08-29T11:31:33.168+05:30  INFO 11448 --- [main] c.e.b.BfhSqlSolverApplication            : Started BfhSqlSolverApplication in 1.514 seconds (process running for 1.793)
+2025-08-29T11:31:33.177+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.runner.StartupRunner  : === BFH SQL Solver Starting ===
+2025-08-29T11:31:33.177+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.runner.StartupRunner  : Candidate: Rohith Kumar | RegNo: 22BCT0330 | Email: rohithkumarbonthala6776@gmail.com
+2025-08-29T11:31:33.180+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.service.BfhClient     : Calling generateWebhook at: https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA
+2025-08-29T11:31:33.702+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.service.BfhClient     : generateWebhook succeeded
+2025-08-29T11:31:33.702+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.runner.StartupRunner  : Received webhook: https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA
+2025-08-29T11:31:33.702+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.runner.StartupRunner  : Received accessToken: eyJhbGciOiJI...
+2025-08-29T11:31:33.702+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.runner.StartupRunner  : Prepared final SQL (390 chars)
+2025-08-29T11:31:33.711+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.runner.StartupRunner  : Saved final SQL to C:\Users\rohit\OneDrive\Desktop\bfh-sql-solver\bfh-sql-solver\results\final-query.sql
+2025-08-29T11:31:33.711+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.service.BfhClient     : Submitting final SQL to webhook: https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA
+2025-08-29T11:31:33.768+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.service.BfhClient     : Final SQL submitted successfully.
+2025-08-29T11:31:33.768+05:30  INFO 11448 --- [main] c.e.bfh_sql_solver.runner.StartupRunner  : === Done ===
+2025-08-29T11:31:41.113+05:30  INFO 11448 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-29T11:31:41.113+05:30  INFO 11448 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-29T11:31:41.113+05:30  INFO 11448 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms

@@ -1,0 +1,9 @@
+com\example\bfh_sql_solver\config\RestClientConfig.class
+com\example\bfh_sql_solver\BfhSqlSolverApplication.class
+com\example\bfh_sql_solver\dto\FinalQueryPayload.class
+com\example\bfh_sql_solver\runner\StartupRunner.class
+com\example\bfh_sql_solver\dto\GenerateWebhookResponse.class
+com\example\bfh_sql_solver\service\SqlSolver.class
+com\example\bfh_sql_solver\dto\GenerateWebhookRequest.class
+com\example\bfh_sql_solver\mock\LocalMockController.class
+com\example\bfh_sql_solver\service\BfhClient.class
